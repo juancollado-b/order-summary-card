@@ -43,7 +43,7 @@ main {
     width: 100%;
 }
 .main-content {
-    padding: 30px;
+    padding: 25px;
     font-size: 1.6rem;
 }
 
@@ -60,6 +60,45 @@ main {
 .main-content-description p {
     color: var(--desaturated-blue);
 }
+
+.price {
+    margin-top: 30px;
+    background-color: var(--very-pale-blue);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.price-info {
+    display: flex;
+    align-items: center;
+}
+
+.music-icon {
+    margin-right: 15px;
+}
+
+.price-text-plan {
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.price-text-value {
+    color: var(--desaturated-blue)
+}
+
+.price-link a {
+    color: var(--dark-blue);
+}
+
+.price-link a:hover {
+    text-decoration: none;
+    color: var(--desaturated-blue);
+}
+
 .attribution {
     font-size: 1.1rem;
     text-align: center;
