@@ -1,5 +1,41 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+body {
+    font-family: "Red Hat Display", sans-serif;
+}
+
+main {
+    background-image: url("/assets/images/pattern-background-mobile.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    display: flex;
+    align-items: center;
+}
+
+.main-container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-banner img {
+    width: 100%;
+}
+
 .attribution {
-    font-size: 11px;
+    font-size: 1.1rem;
     text-align: center;
 }
 .attribution a {
