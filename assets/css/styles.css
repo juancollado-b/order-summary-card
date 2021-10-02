@@ -22,16 +22,19 @@ body {
 }
 
 main {
+    background-color: var(--very-pale-blue);
     background-image: url("/assets/images/pattern-background-mobile.svg");
     background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 100vh;
+    background-size: contain;
+    background-position: top;
+    min-height: 95vh;
     display: flex;
     align-items: center;
 }
 
 .main-container {
     width: 90%;
+    max-width: 400px;
     margin: 0 auto;
     background-color: white;
     border-radius: 20px;
@@ -134,7 +137,7 @@ main {
 }
 
 footer {
-    height: 40px;
+    height: 5vh;
     background-color: var(--dark-blue);
     color: white;
     display: flex;
