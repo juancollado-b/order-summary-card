@@ -41,6 +41,7 @@ main {
     overflow: hidden;
     display: flex;
     flex-direction: column;
+    box-shadow: 0 8px 16px 10px var(--pale-blue);
 }
 
 .hero-banner img {
