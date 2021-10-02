@@ -95,7 +95,7 @@ main {
 }
 
 .price-link a {
-    color: var(--dark-blue);
+    color: var(--bright-blue);
 }
 
 .price-link a:hover {
