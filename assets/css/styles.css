@@ -25,7 +25,7 @@ main {
     background-image: url("/assets/images/pattern-background-mobile.svg");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items: center;
 }
@@ -132,10 +132,21 @@ main {
 .cancel-link:hover {
     color: var(--dark-blue);
 }
+
+footer {
+    height: 40px;
+    background-color: var(--dark-blue);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 .attribution {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 .attribution a {
-    color: hsl(228, 45%, 44%);
+    font-weight: 700;
+    color: white;
+    text-decoration: none;
 }
