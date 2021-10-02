@@ -112,6 +112,7 @@ main {
 
 .main-btn {
     border: 0;
+    cursor: pointer;
     border-radius: 10px;
     padding: 15px;
     color: white;
@@ -126,7 +127,7 @@ main {
     box-shadow: 0 8px 16px -8px var(--light-violet);
 }
 .cancel-link {
-    margin-top: 20px;
+    margin-top: 25px;
     color: var(--desaturated-blue);
     font-weight: 700;
     text-decoration: none;
